@@ -112,6 +112,10 @@ Before importing:
 
 ### 5) Create a Dashboard in PowerBI:
 
+**To view all the visualizations, please click here:** Visualizations.pdf
+
+
+
 ![SuperStore Sales Dashboard](https://github.com/waltervas10/Superstore-Sales-Project/blob/main/Dashboard.jpeg?raw=true
 )
 
