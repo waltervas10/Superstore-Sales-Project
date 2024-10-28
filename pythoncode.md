@@ -72,7 +72,7 @@ top_profitable_products = df.groupby('Product Name').agg(
 - This line groups the DataFrame by the **Product Name** column
 - It calculates the total profit for each product by summing the **Profit** column.
 
-#### Sorting by Total Profit
+#### Sorting by Total Profit:
 
 ```python
 ).sort_values(by='total_profit', ascending=False).head(10).reset_index()
@@ -104,7 +104,7 @@ least_profitable_products = df.groupby('Product Name').agg(
 - This line groups the DataFrame (df) by the **Product Name** column.
 - It calculates the total profit for each product by summing the values in the Profit column
 
-#### Selecting Top 10 Least Profitable Products
+#### Selecting Top 10 Least Profitable Products:
 ```python
 ).sort_values(by='total_profit').head(10).reset_index()
 ```
@@ -206,7 +206,7 @@ top_selling_products = df.groupby('Product Name').agg(
 
 <br><br><br>
 
-## Question 8: Customer Segemnts with Highest Sales
+## Question 8: Customer Segments with Highest Sales
 
 ```python
 segment_sales = df.groupby('Segment').agg(
