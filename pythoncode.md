@@ -1,4 +1,4 @@
-# Perform Python Code for Analysis:
+# Performing Python Code for Analysis:
 **This section demonstrates how Python was used to perform exploratory data analysis (EDA) and answer the business questions.**
 
 ##  Question 1: Sales Per State 
