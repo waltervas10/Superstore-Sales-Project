@@ -112,7 +112,7 @@ Before importing:
 
 ### 5) Create a Dashboard in PowerBI:
 
-**To view all the visualizations, please click here:** Visualizations.pdf
+**To view all the visualizations, please click here:** [Visualizations.pdf](https://github.com/waltervas10/Superstore-Sales-Project/blob/008127249cb6bb763b1f83860d335b19d2b0310f/Visualizations.pdf)
 
 
 
