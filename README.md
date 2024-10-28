@@ -33,12 +33,10 @@ The purpose of this project was to answer key business questions that provide a 
 
 **9.	Repeat Customers and Their Impact on Sales:** How loyal are customers, and what is their impact on total sales?
 
-## Approach Used
+## Approaches Used
 
-### Data Cleaning and Preparation in Python:
+### 1) Clean Data in Python:
 > This process ensures the data is clean and ready for analysis.
-
-> Check ________ for code
 
 #### Load the Dataset:
   -	Use pandas to load the dataset into a DataFrame.
@@ -56,22 +54,63 @@ The purpose of this project was to answer key business questions that provide a 
 
 -	Add calculated fields such as Profit Margin (%) = (Profit / Sales) * 100.
 
-### Importing Pandas as pd:
-**Load Dataset:**
+> Check ________ for code
+
+  <br><br>
+
+### 2) Prepare Data for Analysis:
+> This imports the Pandas library with the alias pd.
+
+> Once executed, **df** will contain the data from yourdaset.csv in a structured format, making it ready to analyze. 
+
+**Load Dataset:** 
  ```python
- df = pd.read_csv('/mnt/data/your_dataset.csv')
+import pandas as pd
+df = pd.read_csv('/mnt/data/your_dataset.csv')
 ```
 
-  
-
-#### Convert 'Order Date' to datetime format for time-based analysis:
+#### Converting 'Order Date' to datetime format for time-based analysis:
 ```python
 df['Order Date'] = pd.to_datetime(df['Order Date'], format='%d/%m/%Y')
  ```
 
-# Perform Python Code for Analysis:
+<br><br>
+
+### 3) Perform Python Code for Analysis:
 > This section demonstrates how Python was used to perform exploratory data analysis (EDA) and answer the business questions.
->  Check _______ for code.
+
+###  Question 1: Sales Per State 
+
+```python
+state_sales = df.groupby('State').agg(
+    total_sales=('Sales', 'sum')
+).reset_index()
+
+print(state_sales)
+state_sales.to_csv('state_sales.csv', index=False)  
+```
+This groups the data by each unique state in the **State** column and calculates the sum of the **Sales** column for each state, storing the result in a new DataFrame **state_sales** with columns:
+
+- **State:** Each unique state in the data.
+- **total_sales:** The sum of sales for each state.
+
+> Check ______ for rest of the analysis.
+
+<br><br>
+
+
+### 4) Import CSVs to PowerBI for Visualization
+
+#### Once each DataFrame is saved as a CSV, the files are ready to be imported into Power BI.
+
+Before importing:
+> I made sure each file had a clear and consistent name to avoid confusion
+> Confirmed each columns and values appear correctly
+
+<br><br>
+
+
+### 5) Create a Dashboard in PowerBI:
 
 
 
