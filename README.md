@@ -105,7 +105,8 @@ This groups the data by each unique state in the **State** column and calculates
 
 Before importing:
 > Made sure each file had a clear and consistent name to avoid confusion
-> Confirmed each columns and values appeared correctly
+
+>  Confirmed each columns and values appeared correctly
 
 <br><br>
 
