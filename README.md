@@ -2,7 +2,7 @@
 
 ## About
 
-Data is obtained from Kaggle. I chose to do this dataset because it offers a comprehensive platform for exploring real-world business dynamics, particularly in sales and customer behavior. The dataset provides rich insights into various factors like product performance, regional trends, and customer preferences, allowing for in-depth exploration of sales patterns.
+Data is obtained from Kaggle. I chose to do this dataset because it offers a comprehensive platform for exploring real-world business dynamics, particularly in sales and customer behavior. The dataset provides rich insights into various factors like product performance, regional trends, and customer preferences. This alllows me to do in-depth exploration of sales patterns.
 
 https://www.kaggle.com/datasets/ishanshrivastava28/superstore-sales
 
