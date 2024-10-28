@@ -94,7 +94,7 @@ This groups the data by each unique state in the **State** column and calculates
 - **State:** Each unique state in the data.
 - **total_sales:** The sum of sales for each state.
 
- **To view rest of analysis, please click here:** ![Answering Business Questions.md](https://github.com/waltervas10/Superstore-Sales-Project/blob/60d463e42d01ccd0d69593a3ae5929a42851487a/Answering%20Business%20Questions.md). 
+ **To view rest of analysis, please click here:** ![Answering Business Questions.md](https://github.com/waltervas10/Superstore-Sales-Project/blob/60d463e42d01ccd0d69593a3ae5929a42851487a/Answering%20Business%20Questions.md) 
 
 <br><br>
 
@@ -104,8 +104,8 @@ This groups the data by each unique state in the **State** column and calculates
 #### Once each DataFrame is saved as a CSV, the files are ready to be imported into Power BI.
 
 Before importing:
-> I made sure each file had a clear and consistent name to avoid confusion
-> Confirmed each columns and values appear correctly
+> Made sure each file had a clear and consistent name to avoid confusion
+> Confirmed each columns and values appeared correctly
 
 <br><br>
 
