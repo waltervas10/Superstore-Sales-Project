@@ -57,7 +57,7 @@ The purpose of this project was to answer key business questions that provide a 
 
 
 **To View The Data Cleaning Code, Please Click Here:**
-![Data Cleaning.md](https://github.com/waltervas10/Superstore-Sales-Project/blob/53a41edf949ff98f1b465505619ce16c84252134/Data%20Cleaning.md)
+[Data Cleaning.md](https://github.com/waltervas10/Superstore-Sales-Project/blob/53a41edf949ff98f1b465505619ce16c84252134/Data%20Cleaning.md)
 
   <br><br>
 
