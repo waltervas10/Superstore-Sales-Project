@@ -1,4 +1,4 @@
-# Superstore Sales Data Analysis Project by Walter A. Vasquez
+# Sales Data Analysis Project by Walter A. Vasquez
 
 ## About
 
