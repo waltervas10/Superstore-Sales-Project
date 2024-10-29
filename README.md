@@ -65,8 +65,8 @@ The purpose of this project was to answer key business questions that provide a 
 
 **Load Dataset:** 
  ```python
-import pandas as pd
-df = pd.read_csv('/mnt/data/your_dataset.csv')
+path ="/content/drive/MyDrive/sales data.csv"
+df = pd.read_csv(path)
 ```
 
 #### Converting 'Order Date' to datetime format for time-based analysis:
