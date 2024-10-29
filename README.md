@@ -10,7 +10,7 @@ https://www.kaggle.com/datasets/ishanshrivastava28/superstore-sales
 
 ## Purposes of The Project
 
-The purpose of this project was to answer key business questions that provide a deeper understanding of sales performance and customer behavior. This was all done using Python for data analysis and PowerBI for data visualization.
+The purpose of this project was to answer key business questions that provide a deeper understanding of sales performance and customer behavior. This was all done using Python for data analysis and Microsoft Power BI for data visualization.
 
 
 ### Business Questions To Answer:
@@ -100,7 +100,7 @@ This groups the data by each unique state in the **State** column and calculates
 <br><br>
 
 
-### 4) Import CSVs to PowerBI for Visualization
+### 4) Import CSVs to Power BI for Visualization
 
 #### Once each DataFrame is saved as a CSV, the files are ready to be imported into Power BI.
 
@@ -112,7 +112,7 @@ Before importing:
 <br><br>
 
 
-### 5) Create a Dashboard in PowerBI:
+### 5) Create a Dashboard in Power BI:
 
 **To view all the visualizations, please click here:** [Visualizations.pdf](https://github.com/waltervas10/Superstore-Sales-Project/blob/008127249cb6bb763b1f83860d335b19d2b0310f/Visualizations.pdf)
 
