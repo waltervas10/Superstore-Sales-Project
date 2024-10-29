@@ -38,23 +38,25 @@ The purpose of this project was to answer key business questions that provide a 
 ### 1) Clean Data in Python:
 > This process ensures the data is clean and ready for analysis.
 
-#### Load the Dataset:
+#### Loading the Dataset:
   -	Use pandas to load the dataset into a DataFrame.
   
+
+#### Check for Missing Values and Data Types:
   -	Review for null values, duplicates, and data types.
 
-#### Check for Outliers:
-  -	Inspect columns like Quantity, Profit, and Price for unusual entries.
-
 #### Handle Missing Values:
-
   -	Drop or fill missing values as necessary (e.g., use .fillna() or .dropna()).
 
-#### Calculate Key Metrics:
-
+#### Adding a New Calculated Column: Profit Margin
 -	Add calculated fields such as Profit Margin (%) = (Profit / Sales) * 100.
 
-> Check ________ for code
+#### Check for Outliers in Quantity or Profit (Statistics): 
+- Perform statistical work to check for outliers.
+
+
+
+**To View The Data Cleaning Code, Please Click Here:** ____________
 
   <br><br>
 
