@@ -37,12 +37,32 @@ df.dropna(subset=['Postal Code'], inplace=True)
 print(df.info())
 ```
 - The Postal Code column has some missing values (9800 rows total, but only 9789 non-null in this column)
-- So, we input df.dropna to drop the rows with missing postal codes
+- Input df.dropna to drop the rows with missing postal codes
 
 
 <br>
 
-### 4) Check for Outliers:
+### 4) Adding a New Calculated Column: Profit Margin:
+
+```python
+import pandas as pd
+
+path ="/content/drive/MyDrive/sales data.csv"
+df = pd.read_csv(path)
+
+df.dropna(subset=['Postal Code'], inplace=True)
+
+df['Profit Margin (%)'] = (df['Profit'] / df['Sales']) * 100
+
+print(df.info())
+
+```
+
+- This calculates the profit margin for each row and creates a new column named **Profit Margin (%).**
+
+<br>
+
+### 5) Check for Outliers:
 ```python
 import pandas as pd
 
@@ -89,4 +109,6 @@ print(df[['Quantity', 'Profit']].describe())
   - The 25th percentile shows a loss of -290.52
   - The 50th percentile indicates a small loss (-2.55)
   - The 75th percentile shows a profit of 284.21, which implies that most profitable transactions occur in the higher range.
+
+
 
