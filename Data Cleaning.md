@@ -10,6 +10,8 @@ path ="/content/drive/MyDrive/sales data.csv"
 df = pd.read_csv(path)
 
 ```
+<br>
+
 ### 2) Check for Missing Values and Data Types:
 
 ```python
@@ -22,7 +24,7 @@ print(df.info())
 ```
 
 
-
+<br>
 
 ### 3) Handle Missing Values:
 ```python
@@ -37,6 +39,8 @@ print(df.info())
 - The Postal Code column has some missing values (9800 rows total, but only 9789 non-null in this column)
 - So, we input df.dropna to drop the rows with missing postal codes
 
+
+<br>
 
 ### 4) Check for Outliers:
 ```python
