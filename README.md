@@ -62,7 +62,7 @@ The purpose of this project was to answer key business questions that provide a 
   <br><br>
 
 ### 2) Prepare Data for Analysis:
-> This imports the Pandas library with the alias pd.
+
 
 **Load Dataset:** 
  ```python
